@@ -1,0 +1,21 @@
+Parfait — le tutoriel a bien tourné dans votre conteneur (Aer provenant de qiskit_aer). Résumé rapide des sorties et ce que ça signifie :
+
+    Exemple 1 (Bell) : l'état affiché montre bien les amplitudes (|00> et |11> égales à 1/√2).
+    Exemple 2 (mesures/Aer) : counts ≯ équilibrés autour de 50/50 pour |00> et |11> (échantillonnage aléatoire, shots=512).
+    Exemple 3 (expectation Z⊗Z) : valeur ≃ +1 — corrélation parfaite comme attendu pour le Bell.
+    Exemple 4 (unitaire) : la matrice 4×4 du circuit H+CX a été extraite correctement.
+
+Souhaitez‑vous l’une des actions suivantes (choisissez une ou plusieurs) :
+
+    Que je convertisse automatiquement votre operator1.py (collez son contenu) vers l’API moderne (qiskit.quantum_info) ;
+    Un exemple supplémentaire prêt à exécuter : VQE simple, circuit paramétré et estimation d’énergie, ou démonstration du Sampler/Estimator (qiskit.primitives) ;
+    Un script de sampling Monte‑Carlo (N shots) et comparaison fréquence empiriques vs probabilités théoriques ;
+    Un notebook Jupyter prêt à l’emploi contenant ces exemples et visualisations (matrices, histogrammes) ;
+    Intégrer le tutoriel dans votre repo (README + test CI simple) / créer un patch.
+
+Si vous préférez, je peux aussi :
+
+    générer un exemple HOM (Perceval) côte‑à‑côte avec un exemple qiskit pour comparaison pédagogique, ou
+    ajouter la gestion du fallback Aer (qiskit_aer) dans operator1.py converti.
+
+Dites simplement le numéro (ou collez operator1.py si vous voulez la conversion).
