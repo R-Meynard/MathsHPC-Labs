@@ -1,2 +1,8 @@
-tftb/
-tftb-0.2.tar.gz
+################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+
+# Ignorer tous les executables générés
+*.exe
