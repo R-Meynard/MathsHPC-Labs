@@ -5,4 +5,4 @@
 /.vs
 
 # Ignorer tous les executables générés
-*.exe
+*.exemathshpc-env/
