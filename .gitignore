@@ -1,8 +1,16 @@
-################################################################################
-# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
-################################################################################
-
+# Visual Studio
 /.vs
 
-# Ignorer tous les executables générés
-*.exemathshpc-env/
+# Exécutables générés
+*.exe
+*.o
+
+# Environnement Python
+mathshpc-env/
+
+# Archives
+*.tar.gz
+
+# Documents Office
+*.docx
+*.xlsx
