@@ -1,18 +1,1 @@
-# Visual Studio
-/.vs
-
-# Exécutables générés
-*.exe
-*.o
-
-# Environnement Python
-mathshpc-env/
-
-# Archives
-*.tar.gz
-
-# Documents Office
-*.docx
-*.xlsx
-test_norme.adb
-*.ali
+obj/
