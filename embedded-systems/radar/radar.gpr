@@ -1,0 +1,6 @@
+-- radar.gpr
+project Radar is
+   for Source_Dirs use (".");
+   for Object_Dir use "obj";
+   for Main use ("main.adb"); -- pas d executable pour l instant (bibliotheque)
+end Radar;

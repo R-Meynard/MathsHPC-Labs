@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/rolih/Workspace/MathsHPC-Labs/embedded-systems/radar/radar.gpr
+20260623202955 5903ef53ad612c1c061325c2a98b2415
+[BOUND OBJECT FILES]
+/home/rolih/Workspace/MathsHPC-Labs/embedded-systems/radar/obj/plot.o
+/home/rolih/Workspace/MathsHPC-Labs/embedded-systems/radar/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/rolih/Workspace/MathsHPC-Labs/embedded-systems/radar/obj/
+-L/home/rolih/Workspace/MathsHPC-Labs/embedded-systems/radar/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/13/adalib/
+-shared
+-lgnat-13
+-ldl
