@@ -1,0 +1,18 @@
+name = "test_01_parsing_donnees"
+description = "''"
+version = "0.1.0-dev"
+
+authors = ["Rolih"]
+maintainers = ["Rolih <meynard.rolih@gmail.com>"]
+maintainers-logins = ["R-Meynard"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = "''"
+tags = []
+
+executables = ["main"]
+
+[[depends-on]]
+gnatcoll = "^26.0.0"
+
+[[depends-on]]
+aunit = "^26.0.0"

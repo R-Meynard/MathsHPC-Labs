@@ -1,0 +1,24 @@
+{
+  "donnees": [
+    {
+      "id": 1,
+      "entree": { "a": 3, "b": 5 },
+      "sortie": { "somme": 8 }
+    },
+    {
+      "id": 2,
+      "entree": { "a": 10, "b": -2 },
+      "sortie": { "somme": 8 }
+    },
+    {
+      "id": 3,
+      "entree": { "a": 7, "b": 7 },
+      "sortie": { "somme": 14 }
+    },
+    {
+      "id": 4,
+      "entree": { "a": 0, "b": 0 },
+      "sortie": { "somme": 0 }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+with "gnatcoll_core.gpr";
+with "aunit.gpr";
+
+project Test_01_Parsing_Donnees is
+   for Source_Dirs use ("src", "tests");
+   for Object_Dir  use "obj";
+   for Exec_Dir    use "bin";
+   for Main        use ("main.adb", "test_runner.adb");
+end Test_01_Parsing_Donnees;
