@@ -9,10 +9,10 @@ package Parsing_Donnees is
       Somme : Integer;
    end record;
 
-   function Lire_Donnees (Chemin : String) return JSON_Array;
-   --  Lit le fichier JSON et retourne le tableau brut "donnees"
+   function Lire_Donnees (Path : String) return JSON_Array;
+   --  Lit le fichier JSON et retourne le tableau "donnees"
 
    function Extraire_Entree (Item : JSON_Value) return Entree_Sortie;
-   --  Extrait un enregistrement Entree_Sortie depuis un JSON_Value
+   --  Extrait les champs id, a, b, somme d'un élément JSON
 
 end Parsing_Donnees;

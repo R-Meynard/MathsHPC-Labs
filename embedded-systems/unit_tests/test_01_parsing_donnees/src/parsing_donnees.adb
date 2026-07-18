@@ -1,5 +1,5 @@
-with Ada.Text_IO;           use Ada.Text_IO;
 with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
+with Ada.Text_IO;           use Ada.Text_IO;
 
 package body Parsing_Donnees is
 
@@ -19,9 +19,9 @@ package body Parsing_Donnees is
       return To_String (Buffer);
    end Read_File;
 
-   function Lire_Donnees (Chemin : String) return JSON_Array is
-      JSON_Text : constant String := Read_File (Chemin);
-      Root      : constant JSON_Value := Read (JSON_Text, Chemin);
+   function Lire_Donnees (Path : String) return JSON_Array is
+      JSON_Text : constant String     := Read_File (Path);
+      Root      : constant JSON_Value := Read (JSON_Text, Path);
    begin
       return Root.Get ("donnees");
    end Lire_Donnees;
